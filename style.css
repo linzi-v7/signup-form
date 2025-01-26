@@ -1,0 +1,11 @@
+@font-face {
+    font-family: myFont;
+    src: url(./fonts/Norse-Bold.otf) format("opentype");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
