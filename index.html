@@ -45,18 +45,18 @@
 
             <div class="inputs">
                 <p>Let's do this!</p>
-                <form id="signup-form">
+                <form id="signup-form" action="https://httpbin.org/post" method="post">
                     <div class="form-row">
                         <div class="form-item">
                             <label for="first_name">FIRST NAME</label>
                             <br>
-                            <input type="text" id="first_name" name="first_name">
+                            <input type="text" id="first_name" name="first_name" minlength="3">
                         </div>
 
                         <div class="form-item">
                             <label for="last_name">LAST NAME</label>
                             <br>
-                            <input type="text" id="last_name" name="last_name">
+                            <input type="text" id="last_name" name="last_name" minlength="3">
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@
                         <div class="form-item">
                             <label for="phone_number">PHONE NUMBER</label>
                             <br>
-                            <input type="tel" id="phone_number" name="phone_number">
+                            <input type="tel" id="phone_number" name="phone_number" minlength="5">
                         </div>
                     </div>
 
@@ -78,13 +78,14 @@
                         <div class="form-item">
                             <label for="password">PASSWORD</label>
                             <br>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required minlength="7" maxlength="21">
                         </div>
 
                         <div class="form-item">
                             <label for="confirm_password">CONFIRM PASSWORD</label>
                             <br>
-                            <input type="password" id="confirm_password" name="confirm_password">
+                            <input type="password" id="confirm_password" name="confirm_password" required minlength="7"
+                                maxlength="21">
                         </div>
                     </div>
                 </form>

@@ -102,7 +102,7 @@ body {
     font-size: 1.4rem;
     max-width: 43rem;
     vertical-align: bottom;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 
 }
 
@@ -141,10 +141,32 @@ label {
 
 input {
     width: 15rem;
-    height: 1.5rem;
+    height: 1.7rem;
     border-radius: 5px;
-    border: 1px solid #cdcdcd;
+    border: 1px solid #E5E7EB;
+    padding: 5px;
     margin: 2px 0;
+    outline: 0;
+}
+
+input:required {
+    border: 1px solid #E5E7EB;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+input:required {}
+
+input:focus-visible {
+    border-color: blue;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
 }
 
 #signup-form>.form-row {
