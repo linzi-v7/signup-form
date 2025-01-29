@@ -17,6 +17,7 @@ body {
     overflow: hidden;
 }
 
+
 .flex-container {
     height: 100vh;
     display: flex;
@@ -27,7 +28,7 @@ body {
 
 .image-area {
     max-width: 33%;
-    flex: 33%;
+    flex: 1;
 }
 
 .image-area img {
@@ -37,7 +38,7 @@ body {
 }
 
 .form-area {
-    flex: 66%;
+    flex: 2;
     display: flex;
     flex-direction: column;
 }
@@ -75,8 +76,9 @@ body {
 .credits {
     color: rgba(255, 255, 255, 0.751);
     position: absolute;
-    bottom: 15px;
-    left: 140px;
+    bottom: 1rem;
+    left: 8rem;
+
 }
 
 .credits a {
