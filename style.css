@@ -83,6 +83,7 @@ body {
 
 .credits a {
     color: rgba(255, 255, 255, 0.751);
+    text-decoration: none;
 }
 
 .intro,
