@@ -28,12 +28,14 @@ A simple front-end signup form built as part of **The Odin Project** curriculum.
 - Implementing a backend to handle user data.
 - Enhancing JavaScript validation to trigger the `:invalid` pseudo-class only after the user attempts to submit the form at least once.
 - Improving responsiveness and overall styling for better user experience.
+- Mobile and other screen sizes support.
 - Adding real-time validation feedback using JavaScript.
 - Enhancing UI with animations and transitions for better interaction.
 
 ## Live Demo
 
 [GitHub Pages Link](https://linzi-v7.github.io/signup-form/)
+Note: Doesnt work well with smaller screen sizes and mobile yet.
 
 ## License
 
