@@ -2,9 +2,13 @@
 
 A simple front-end signup form built as part of **The Odin Project** curriculum. This project focuses on creating a well-styled form with appropriate HTML5 validation, but without any backend or JavaScript functionality.
 
-## Reference Design
+## Reference Design vs Achieved Design
 
+- Reference
 ![Reference](./reference.png)
+
+- Achieved
+![Achieved](./achieved.png)
 
 ## Features
 
